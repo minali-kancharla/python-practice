@@ -1,0 +1,10 @@
+first = input("First Name: ")
+last = input("Last Name: ")
+age = int(input("Age: "))
+height = int(input("Height (in): "))
+color = input("Favorite color: ")
+
+print(f"Name: {first} {last}")
+print(f"Age: {age}")
+print(f"Height: {height}")
+print(f"Favorite color: {color}")
