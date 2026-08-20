@@ -1,3 +1,6 @@
+# Purpose: Calculate the tip, total bill, and cost per person.
+# Concepts: Variables, floats, arithmetic, input, type conversion, f-strings.
+
 bill = float(input("Bill: "))
 tip = float(input("Tip (%): "))
 people = int(input("Number of people: "))

@@ -1,3 +1,6 @@
+# Purpose: Convert a number of seconds into hours, minutes, and seconds.
+# Concepts: Variables, integers, integer division, modulo, conditionals, input.
+
 seconds = int(input("Enter seconds: "))
 
 hours = seconds//3600

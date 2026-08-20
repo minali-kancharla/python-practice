@@ -1,3 +1,6 @@
+# Purpose: Collect and display basic personal information.
+# Concepts: Variables, strings, integers, input, type conversion, f-strings.
+
 first = input("First Name: ")
 last = input("Last Name: ")
 age = int(input("Age: "))
