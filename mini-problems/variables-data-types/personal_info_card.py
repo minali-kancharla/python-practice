@@ -6,5 +6,6 @@ color = input("Favorite color: ")
 
 print(f"Name: {first} {last}")
 print(f"Age: {age}")
-print(f"Height: {height}")
+print(f"Height: {height} inches")
 print(f"Favorite color: {color}")
+print(f"Age in five years: {age+5}")
