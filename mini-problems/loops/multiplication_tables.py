@@ -6,3 +6,4 @@ y = int(input("How many times: "))
 
 for i in range(1, y+1):
     print(f"{x} x {i} = {x * i}")
+
