@@ -1,3 +1,6 @@
+# Purpose: Analyze a list of numbers by calculating the total, average, minimum, maximum, and even/odd counts.
+# Concepts: Lists, for loops, range(), accumulators, conditionals, comparisons, modulo (%), sum(), len(), and f-strings.
+
 numbers = []
 count = int(input("How many numbers? "))
 for i in range(count):

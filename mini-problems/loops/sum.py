@@ -1,3 +1,6 @@
+# Purpose: Collect numbers from the user and calculate their total.
+# Concepts: Lists, while loops, break, sentinel values, input/type conversion, .append(), sum(), and f-strings.
+
 numbers = []
 
 while True:

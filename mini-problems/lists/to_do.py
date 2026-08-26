@@ -1,3 +1,7 @@
+# Purpose: Create a to-do list where users can add, remove, view, clear, and complete tasks.
+# Concepts: Lists, .append(), .pop(), .clear(), indexing, len(), range(), for/while loops,
+# break, conditionals, input/type conversion, and f-strings.
+
 tasks = []
 print('''
 1. Add task

@@ -1,3 +1,6 @@
+# Purpose: Create a receipt by calculating the subtotal, tax, and total cost of products.
+# Concepts: Dictionaries, .items(), .values(), for loops, sum(), arithmetic, floats, and f-string formatting (:.2f).
+
 products = {
     "apples": 3.99,
     "milk": 4.50,

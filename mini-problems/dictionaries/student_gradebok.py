@@ -1,3 +1,7 @@
+# Purpose: Track student grades, find the highest grade and class average, search for students, and add students.
+# Concepts: Dictionaries, .items(), .values(), for/while loops, conditionals, dictionary lookup/modification,
+# sum(), len(), input/type conversion, comparison, and f-strings.
+
 students = {
     "Alice": 92,
     "Bob": 85,

@@ -1,3 +1,6 @@
+# Purpose: Separate numbers into even and odd lists and calculate their averages.
+# Concepts: Lists, for loops, conditionals, modulo (%), .append(), sum(), len(), and f-strings.
+
 numbers = [12, 7, 18, 25, 30, 41, 52, 63]
 
 even_numbers = []

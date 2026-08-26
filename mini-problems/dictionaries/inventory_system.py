@@ -1,3 +1,6 @@
+# Purpose: Manage store inventory by viewing, adding, removing, and checking stock.
+# Concepts: Nested dictionaries, dictionary methods, while loops, conditionals, input/type conversion, dictionary modification, f-strings, formatting, and validation.
+
 inventory = {
     "apples": {"quantity": 20, "price": 0.75},
     "bananas": {"quantity": 15, "price": 0.20},
