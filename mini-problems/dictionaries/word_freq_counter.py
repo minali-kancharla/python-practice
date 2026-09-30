@@ -4,16 +4,9 @@
 
 from collections import Counter
 
-words = []
-
-while True:
-    values = input("Enter your words. Type 'quit' as the key to finish: ").strip()
-    
-    if values.lower() == 'quit':
-        break   
-        
-    words.append(values)
-
+values = input("Enter your words: ").strip()
+words = values.split()
 word_counts = Counter(words)
+
 for word, count in word_counts.items():
     print(f"{word}: {count}")
