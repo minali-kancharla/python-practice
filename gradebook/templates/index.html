@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gradebook</title>
+</head>
+
+<body>
+
+    <h1>Gradebook</h1>
+
+    <form method="POST">
+        <label>Homework 1:</label>
+        <input type="number" name="homework1">
+
+        <br><br>
+
+        <label>Homework 2:</label>
+        <input type="number" name="homework2">
+
+        <br><br>
+
+        <label>Midterm:</label>
+        <input type="number" name="midterm">
+
+        <br><br>
+
+        <label>Project:</label>
+        <input type="number" name="project">
+
+        <br><br>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    {% if average %}
+        <h2>Average: {{ average }}%</h2>
+        <h2>Letter Grade: {{ letter_grade }}</h2>
+    {% endif %}
+
+</body>
+</html>
